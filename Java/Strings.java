@@ -15,7 +15,13 @@ For example, the length of a string can be found with teh length() method */
   System.out.println(txt2.indexOf("locate"));
 
   //Concatenate
+  String FirstName = "John";
+  String LastName = "Doe";
+  System.out.println(FirstName + " " + LastName);
 
+  System.out.println("Concat Test: ");
+
+  System.out.println(FirstName.concat(LastName)); 
 
 
 
